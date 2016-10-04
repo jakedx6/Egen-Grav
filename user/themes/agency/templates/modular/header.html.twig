@@ -1,0 +1,18 @@
+<!--<header id="cover" class="cover-container">
+    <div id="large-header" class="intro-text"> 
+        {{ content }}
+        {% for button in page.header.buttons %}
+            <a class="page-scroll btn btn-xl" href="{{ button.url }}">{{ button.text }}</a>
+        {% endfor %}
+    </div>
+     <canvas id="canvas"></canvas>
+</header>-->
+<header id="cover" class="cover-container">
+  <div id="large-header" class="inner cover intro-text">
+     {{ content }}
+        {% for button in page.header.buttons %}
+            <a class="page-scroll btn btn-xl" href="{{ button.url }}">{{ button.text }}</a>
+        {% endfor %}
+  </div>
+   <canvas id="canvas"></canvas>
+</header>
