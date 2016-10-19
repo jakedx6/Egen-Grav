@@ -1,29 +1,59 @@
 <div class="sections-group">
     
-<section id="services">
-  <div class="container">
+<section>
+  <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-12 text-center">
-            {{ content }}
-        </div>
+      <div class="col-md-6 nopadding">
+         <div class="featured image-1"></div>
+      </div>
+      <div class="col-md-6 featured-text">
+        <h3>
+				UX and Product Design.
+			</h3>
+      <h4>
+				Applications that delight
+			</h4>
+        <hr class="featured-hr-left" />
+        <p>
+          Applications need to do more than function, they need to create positive experiences for the people that use them. Egen is passionate about crafting websites, apps and web applications that do just that leaving users with a sense of delight.
+        </p>
+      </div>
     </div>
-    <div class="row text-center">
-        {% for service in page.header.services %}
-            <div class="col-md-4">
-                {% if service.icon %}
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-{{ service.icon }} fa-stack-1x fa-inverse"></i>
-                    </span>
-                {% endif %}
-                {% if service.header %}
-                    <h4 class="service-heading">{{ service.header }}</h4>
-                {% endif %}
-                {% if service.text %}
-                    <p class="text-muted">{{ service.text }}</p>
-                {% endif %}
-            </div>
-        {% endfor %}
+    <div class="row">
+      <div class="col-md-6 nopadding col-md-push-6">
+        <div class="featured image-2"></div>
+      </div>
+      <div class="col-md-6 featured-text col-md-pull-6">
+        <h3>
+				Web Applications
+			</h3>
+         <h4>
+				Cutting-edge technlogy, for 
+todays biggest challenges
+			</h4>
+        <hr class="featured-hr-right" />
+        <p>
+       We solve the tough problems, our experienced engineers know how to build complex web applications utilizing today’s cutting-edge technologies such as IoT, machine learning, and data management.
+        </p>
+      </div>
     </div>
-</div>
+    <div class="row">
+      <div class="col-md-6 nopadding">
+         <div class="featured image-3"></div>
+      </div>
+      <div class="col-md-6 featured-text">
+        <h3>
+			Mobile Apps
+			</h3>
+         <h4>
+				Custom built for your unique needs
+			</h4>
+        <hr class="featured-hr-left" />
+        <p>
+         Egen crafts mobile apps with the finest quality and workmanship. Egen solves problems; not with cookie-cutter templates, but with thoughtful innovation. Our team will work with you to discover how we can build the app that your business needs to stay competitive and efficient.
+        </p>
+      </div>
+    </div>
+  </div>
+
 </section>

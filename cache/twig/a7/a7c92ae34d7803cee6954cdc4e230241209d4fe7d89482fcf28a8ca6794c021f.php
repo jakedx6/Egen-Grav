@@ -30,7 +30,7 @@ class __TwigTemplate_df8d658bc7d279b9d9a8e63a1d14e28e191d86df543c9ab0d3cce5a1b32
             <a class=\"navbar-brand page-scroll\" href=\"#page-top\"><img class=\"sitelogo\" src=\"";
         // line 12
         echo (isset($context["base_url_relative"]) ? $context["base_url_relative"] : null);
-        echo "/images/Egen-Logo-White.svg\"></a>
+        echo "/user/themes/agency/img/Egen-Logo-White.svg\"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -116,7 +116,7 @@ class __TwigTemplate_df8d658bc7d279b9d9a8e63a1d14e28e191d86df543c9ab0d3cce5a1b32
 /*                 <span class="icon-bar"></span>*/
 /*                 <span class="icon-bar"></span>*/
 /*             </button>*/
-/*             <a class="navbar-brand page-scroll" href="#page-top"><img class="sitelogo" src="{{ base_url_relative }}/images/Egen-Logo-White.svg"></a>*/
+/*             <a class="navbar-brand page-scroll" href="#page-top"><img class="sitelogo" src="{{ base_url_relative }}/user/themes/agency/img/Egen-Logo-White.svg"></a>*/
 /*         </div>*/
 /* */
 /*         <!-- Collect the nav links, forms, and other content for toggling -->*/

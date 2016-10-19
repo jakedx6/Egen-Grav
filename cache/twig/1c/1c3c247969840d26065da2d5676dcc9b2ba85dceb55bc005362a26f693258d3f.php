@@ -18,67 +18,63 @@ class __TwigTemplate_3a452000e32b337d491440419a7497b5a69a2a10f4aec360ba677ca65dd
         // line 1
         echo "<div class=\"sections-group\">
     
-<section id=\"services\">
-  <div class=\"container\">
+<section>
+  <div class=\"container-fluid\">
     <div class=\"row\">
-        <div class=\"col-lg-12 text-center\">
-            ";
-        // line 7
-        echo (isset($context["content"]) ? $context["content"] : null);
-        echo "
-        </div>
+      <div class=\"col-md-6 nopadding\">
+         <div class=\"featured image-1\"></div>
+      </div>
+      <div class=\"col-md-6 featured-text\">
+        <h3>
+\t\t\t\tUX and Product Design.
+\t\t\t</h3>
+      <h4>
+\t\t\t\tApplications that delight
+\t\t\t</h4>
+        <hr class=\"featured-hr-left\" />
+        <p>
+          Applications need to do more than function, they need to create positive experiences for the people that use them. Egen is passionate about crafting websites, apps and web applications that do just that leaving users with a sense of delight.
+        </p>
+      </div>
     </div>
-    <div class=\"row text-center\">
-        ";
-        // line 11
-        $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "services", array()));
-        foreach ($context['_seq'] as $context["_key"] => $context["service"]) {
-            // line 12
-            echo "            <div class=\"col-md-4\">
-                ";
-            // line 13
-            if ($this->getAttribute($context["service"], "icon", array())) {
-                // line 14
-                echo "                    <span class=\"fa-stack fa-4x\">
-                        <i class=\"fa fa-circle fa-stack-2x text-primary\"></i>
-                        <i class=\"fa fa-";
-                // line 16
-                echo $this->getAttribute($context["service"], "icon", array());
-                echo " fa-stack-1x fa-inverse\"></i>
-                    </span>
-                ";
-            }
-            // line 19
-            echo "                ";
-            if ($this->getAttribute($context["service"], "header", array())) {
-                // line 20
-                echo "                    <h4 class=\"service-heading\">";
-                echo $this->getAttribute($context["service"], "header", array());
-                echo "</h4>
-                ";
-            }
-            // line 22
-            echo "                ";
-            if ($this->getAttribute($context["service"], "text", array())) {
-                // line 23
-                echo "                    <p class=\"text-muted\">";
-                echo $this->getAttribute($context["service"], "text", array());
-                echo "</p>
-                ";
-            }
-            // line 25
-            echo "            </div>
-        ";
-        }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['service'], $context['_parent'], $context['loop']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 27
-        echo "    </div>
-</div>
-</section>
-";
+    <div class=\"row\">
+      <div class=\"col-md-6 nopadding col-md-push-6\">
+        <div class=\"featured image-2\"></div>
+      </div>
+      <div class=\"col-md-6 featured-text col-md-pull-6\">
+        <h3>
+\t\t\t\tWeb Applications
+\t\t\t</h3>
+         <h4>
+\t\t\t\tCutting-edge technlogy, for 
+todays biggest challenges
+\t\t\t</h4>
+        <hr class=\"featured-hr-right\" />
+        <p>
+       We solve the tough problems, our experienced engineers know how to build complex web applications utilizing today’s cutting-edge technologies such as IoT, machine learning, and data management.
+        </p>
+      </div>
+    </div>
+    <div class=\"row\">
+      <div class=\"col-md-6 nopadding\">
+         <div class=\"featured image-3\"></div>
+      </div>
+      <div class=\"col-md-6 featured-text\">
+        <h3>
+\t\t\tMobile Apps
+\t\t\t</h3>
+         <h4>
+\t\t\t\tCustom built for your unique needs
+\t\t\t</h4>
+        <hr class=\"featured-hr-left\" />
+        <p>
+         Egen crafts mobile apps with the finest quality and workmanship. Egen solves problems; not with cookie-cutter templates, but with thoughtful innovation. Our team will work with you to discover how we can build the app that your business needs to stay competitive and efficient.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</section>";
     }
 
     public function getTemplateName()
@@ -86,43 +82,67 @@ class __TwigTemplate_3a452000e32b337d491440419a7497b5a69a2a10f4aec360ba677ca65dd
         return "modular/services.html.twig";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  78 => 27,  71 => 25,  65 => 23,  62 => 22,  56 => 20,  53 => 19,  47 => 16,  43 => 14,  41 => 13,  38 => 12,  34 => 11,  27 => 7,  19 => 1,);
+        return array (  19 => 1,);
     }
 }
 /* <div class="sections-group">*/
 /*     */
-/* <section id="services">*/
-/*   <div class="container">*/
+/* <section>*/
+/*   <div class="container-fluid">*/
 /*     <div class="row">*/
-/*         <div class="col-lg-12 text-center">*/
-/*             {{ content }}*/
-/*         </div>*/
+/*       <div class="col-md-6 nopadding">*/
+/*          <div class="featured image-1"></div>*/
+/*       </div>*/
+/*       <div class="col-md-6 featured-text">*/
+/*         <h3>*/
+/* 				UX and Product Design.*/
+/* 			</h3>*/
+/*       <h4>*/
+/* 				Applications that delight*/
+/* 			</h4>*/
+/*         <hr class="featured-hr-left" />*/
+/*         <p>*/
+/*           Applications need to do more than function, they need to create positive experiences for the people that use them. Egen is passionate about crafting websites, apps and web applications that do just that leaving users with a sense of delight.*/
+/*         </p>*/
+/*       </div>*/
 /*     </div>*/
-/*     <div class="row text-center">*/
-/*         {% for service in page.header.services %}*/
-/*             <div class="col-md-4">*/
-/*                 {% if service.icon %}*/
-/*                     <span class="fa-stack fa-4x">*/
-/*                         <i class="fa fa-circle fa-stack-2x text-primary"></i>*/
-/*                         <i class="fa fa-{{ service.icon }} fa-stack-1x fa-inverse"></i>*/
-/*                     </span>*/
-/*                 {% endif %}*/
-/*                 {% if service.header %}*/
-/*                     <h4 class="service-heading">{{ service.header }}</h4>*/
-/*                 {% endif %}*/
-/*                 {% if service.text %}*/
-/*                     <p class="text-muted">{{ service.text }}</p>*/
-/*                 {% endif %}*/
-/*             </div>*/
-/*         {% endfor %}*/
+/*     <div class="row">*/
+/*       <div class="col-md-6 nopadding col-md-push-6">*/
+/*         <div class="featured image-2"></div>*/
+/*       </div>*/
+/*       <div class="col-md-6 featured-text col-md-pull-6">*/
+/*         <h3>*/
+/* 				Web Applications*/
+/* 			</h3>*/
+/*          <h4>*/
+/* 				Cutting-edge technlogy, for */
+/* todays biggest challenges*/
+/* 			</h4>*/
+/*         <hr class="featured-hr-right" />*/
+/*         <p>*/
+/*        We solve the tough problems, our experienced engineers know how to build complex web applications utilizing today’s cutting-edge technologies such as IoT, machine learning, and data management.*/
+/*         </p>*/
+/*       </div>*/
 /*     </div>*/
-/* </div>*/
-/* </section>*/
+/*     <div class="row">*/
+/*       <div class="col-md-6 nopadding">*/
+/*          <div class="featured image-3"></div>*/
+/*       </div>*/
+/*       <div class="col-md-6 featured-text">*/
+/*         <h3>*/
+/* 			Mobile Apps*/
+/* 			</h3>*/
+/*          <h4>*/
+/* 				Custom built for your unique needs*/
+/* 			</h4>*/
+/*         <hr class="featured-hr-left" />*/
+/*         <p>*/
+/*          Egen crafts mobile apps with the finest quality and workmanship. Egen solves problems; not with cookie-cutter templates, but with thoughtful innovation. Our team will work with you to discover how we can build the app that your business needs to stay competitive and efficient.*/
+/*         </p>*/
+/*       </div>*/
+/*     </div>*/
+/*   </div>*/
 /* */
+/* </section>*/
