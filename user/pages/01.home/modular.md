@@ -10,9 +10,6 @@ content:
         custom:
             - _header
             - _services
-            - _portfolio
-            - _team
-            - _clients
 form:
     name: contact
     action: /home

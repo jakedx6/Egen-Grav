@@ -6,6 +6,7 @@
     background-position: center;
     background-size: cover;
     overflow:hidden;
+    z-index: 2;
 }
 
 .inner.cover {
@@ -25,5 +26,120 @@
     width:100px;
 }
 
-/*FORMS CUSTOM*/
+/* Featured Image Styles */
+section{
+    padding:0;
+}
+
+.featured {
+    width: 100%;
+    height:500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    z-index:-1;
+}
+ 
+  .image-1 {
+     background-image: url("../img/Product@1x.png");
+     @extend .featured;
+  }
+  .image-2 {
+     background-image: url("../img/Web@1x.png");
+     @extend .featured;
+  }
+  .image-3 {
+     background-image: url("../img/Mobile@1x.png");
+    @extend .featured;
+  }
+
+.nopadding {
+   padding: 0;
+   margin: 0;
+}
+
+section#contact {
+    padding-top:100px;
+    background-image: none;
+}
+
+
+.partners{
+    background-image: url("../img/partners.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-height: 300px;
+    z-index: -1;
+      h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    font-size:40px;
+    margin-bottom:10px;
+    margin-top:100px;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+  }
+  
+    h4 {
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+    text-align:center;
+    color:#FDA53A;
+    font-size:22px;
+    text-transform: none;
+  }
+    
+}
+/* END Featured Image Styles END*/
+
+/* Typography Syles */
+
+.featured-text {
+  z-index:1;
+  padding:20px;
+  overflow:none;
+  min-height:500px;
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    font-size:40px;
+    margin-bottom:10px;
+    margin-top:30px;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+    h4 {
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+    text-align:center;
+    color:#7B7B7B;
+    font-size:22px;
+    text-transform: none;
+  }
+  
+  .featured-hr-left{
+    border-top: 5px solid #FDA53A;
+    margin-left:-60px;
+    width:80%;
+  }
+    .featured-hr-right{
+    border-top: 5px solid #FDA53A;
+    margin-right:-60px;
+    width:80%;
+  }
+  
+  p {
+    font-size:18px;
+    font-family: 'Roboto Slab', serif;
+    color:#4D4D4D;
+    padding:0 15px 0 15px;
+  }
+  
+}
+
+/* END Typography Syles END*/
 
