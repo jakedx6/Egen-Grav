@@ -1,0 +1,11 @@
+email: jakedx6@gmail.com
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: Test
+title: tester
+state: enabled
+hashed_password: $2y$10$Oly4yogSvvEZW3iypfJ8Y.EI9SG.UcbNOJef66z0qkfXNqgrcto5C
