@@ -72,6 +72,16 @@ todays biggest challenges
         </p>
       </div>
     </div>
+     <div class=\"row\">  
+         <div class=\"col-md-12 partners\">
+             <h3>
+\t\t\tAT THE HEART A PARTNERSHIP
+\t\t\t</h3>
+         <h4>
+\t\t\t\tWe strive to prove ourselves to be a
+ partner in your success
+\t\t\t</h4>
+      </div>  
   </div>
 
 </section>";
@@ -143,6 +153,16 @@ todays biggest challenges
 /*         </p>*/
 /*       </div>*/
 /*     </div>*/
+/*      <div class="row">  */
+/*          <div class="col-md-12 partners">*/
+/*              <h3>*/
+/* 			AT THE HEART A PARTNERSHIP*/
+/* 			</h3>*/
+/*          <h4>*/
+/* 				We strive to prove ourselves to be a*/
+/*  partner in your success*/
+/* 			</h4>*/
+/*       </div>  */
 /*   </div>*/
 /* */
 /* </section>*/
