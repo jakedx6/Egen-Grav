@@ -18,7 +18,7 @@ class __TwigTemplate_3a452000e32b337d491440419a7497b5a69a2a10f4aec360ba677ca65dd
         // line 1
         echo "<div class=\"sections-group\">
     
-<section>
+<section id=\"services\">
   <div class=\"container-fluid\">
     <div class=\"row\">
       <div class=\"col-md-6 nopadding\">
@@ -89,7 +89,7 @@ todays biggest challenges
 }
 /* <div class="sections-group">*/
 /*     */
-/* <section>*/
+/* <section id="services">*/
 /*   <div class="container-fluid">*/
 /*     <div class="row">*/
 /*       <div class="col-md-6 nopadding">*/
